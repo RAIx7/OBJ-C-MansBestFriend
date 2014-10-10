@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE0FB35F19AA9D3D00FBB2F1 /* JRT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE0FB35C19AA9D3D00FBB2F1 /* JRT.jpg */; };
+		DE0FB36019AA9D3D00FBB2F1 /* ItalianGreyhound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE0FB35D19AA9D3D00FBB2F1 /* ItalianGreyhound.jpg */; };
+		DE0FB36119AA9D3D00FBB2F1 /* BorderCollie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE0FB35E19AA9D3D00FBB2F1 /* BorderCollie.jpg */; };
+		DE5A734919A116630054F8AC /* St.Bernard.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DE5A734819A116630054F8AC /* St.Bernard.JPG */; };
 		DE7103CA1990F91500CF5CED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7103C91990F91500CF5CED /* Foundation.framework */; };
 		DE7103CC1990F91500CF5CED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7103CB1990F91500CF5CED /* CoreGraphics.framework */; };
 		DE7103CE1990F91500CF5CED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7103CD1990F91500CF5CED /* UIKit.framework */; };
@@ -21,6 +25,9 @@
 		DE7103EB1990F91500CF5CED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7103CD1990F91500CF5CED /* UIKit.framework */; };
 		DE7103F31990F91500CF5CED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE7103F11990F91500CF5CED /* InfoPlist.strings */; };
 		DE7103F51990F91500CF5CED /* Man_s_Best_FriendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7103F41990F91500CF5CED /* Man_s_Best_FriendTests.m */; };
+		DE7104001990FADB00CF5CED /* XXXDog.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7103FF1990FADB00CF5CED /* XXXDog.m */; };
+		DEB62FEA19B2946F00C82767 /* XXXPuppy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB62FE919B2946F00C82767 /* XXXPuppy.m */; };
+		DEB62FEC19B2976800C82767 /* Bo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEB62FEB19B2976800C82767 /* Bo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE0FB35C19AA9D3D00FBB2F1 /* JRT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JRT.jpg; sourceTree = "<group>"; };
+		DE0FB35D19AA9D3D00FBB2F1 /* ItalianGreyhound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ItalianGreyhound.jpg; sourceTree = "<group>"; };
+		DE0FB35E19AA9D3D00FBB2F1 /* BorderCollie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BorderCollie.jpg; sourceTree = "<group>"; };
+		DE5A734819A116630054F8AC /* St.Bernard.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = St.Bernard.JPG; sourceTree = "<group>"; };
 		DE7103C61990F91500CF5CED /* Man's Best Friend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Man's Best Friend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE7103C91990F91500CF5CED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DE7103CB1990F91500CF5CED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,13 +57,18 @@
 		DE7103D91990F91500CF5CED /* XXXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXXAppDelegate.m; sourceTree = "<group>"; };
 		DE7103DC1990F91500CF5CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE7103DE1990F91500CF5CED /* XXXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXXViewController.h; sourceTree = "<group>"; };
-		DE7103DF1990F91500CF5CED /* XXXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXXViewController.m; sourceTree = "<group>"; };
+		DE7103DF1990F91500CF5CED /* XXXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXXViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		DE7103E11990F91500CF5CED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DE7103E71990F91500CF5CED /* Man's Best FriendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Man's Best FriendTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE7103E81990F91500CF5CED /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		DE7103F01990F91500CF5CED /* Man's Best FriendTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Man's Best FriendTests-Info.plist"; sourceTree = "<group>"; };
 		DE7103F21990F91500CF5CED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DE7103F41990F91500CF5CED /* Man_s_Best_FriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man_s_Best_FriendTests.m; sourceTree = "<group>"; };
+		DE7103FE1990FADB00CF5CED /* XXXDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XXXDog.h; path = ../XXXDog.h; sourceTree = "<group>"; };
+		DE7103FF1990FADB00CF5CED /* XXXDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XXXDog.m; path = ../XXXDog.m; sourceTree = "<group>"; };
+		DEB62FE819B2946F00C82767 /* XXXPuppy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXXPuppy.h; sourceTree = "<group>"; };
+		DEB62FE919B2946F00C82767 /* XXXPuppy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXXPuppy.m; sourceTree = "<group>"; };
+		DEB62FEB19B2976800C82767 /* Bo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +133,10 @@
 				DE7103DB1990F91500CF5CED /* Main.storyboard */,
 				DE7103DE1990F91500CF5CED /* XXXViewController.h */,
 				DE7103DF1990F91500CF5CED /* XXXViewController.m */,
+				DE7103FE1990FADB00CF5CED /* XXXDog.h */,
+				DE7103FF1990FADB00CF5CED /* XXXDog.m */,
+				DEB62FE819B2946F00C82767 /* XXXPuppy.h */,
+				DEB62FE919B2946F00C82767 /* XXXPuppy.m */,
 				DE7103E11990F91500CF5CED /* Images.xcassets */,
 				DE7103D01990F91500CF5CED /* Supporting Files */,
 			);
@@ -126,6 +146,11 @@
 		DE7103D01990F91500CF5CED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DEB62FEB19B2976800C82767 /* Bo.jpg */,
+				DE0FB35C19AA9D3D00FBB2F1 /* JRT.jpg */,
+				DE0FB35D19AA9D3D00FBB2F1 /* ItalianGreyhound.jpg */,
+				DE0FB35E19AA9D3D00FBB2F1 /* BorderCollie.jpg */,
+				DE5A734819A116630054F8AC /* St.Bernard.JPG */,
 				DE7103D11990F91500CF5CED /* Man's Best Friend-Info.plist */,
 				DE7103D21990F91500CF5CED /* InfoPlist.strings */,
 				DE7103D51990F91500CF5CED /* main.m */,
@@ -228,8 +253,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE0FB36119AA9D3D00FBB2F1 /* BorderCollie.jpg in Resources */,
+				DE0FB36019AA9D3D00FBB2F1 /* ItalianGreyhound.jpg in Resources */,
+				DE5A734919A116630054F8AC /* St.Bernard.JPG in Resources */,
 				DE7103E21990F91500CF5CED /* Images.xcassets in Resources */,
+				DE0FB35F19AA9D3D00FBB2F1 /* JRT.jpg in Resources */,
 				DE7103D41990F91500CF5CED /* InfoPlist.strings in Resources */,
+				DEB62FEC19B2976800C82767 /* Bo.jpg in Resources */,
 				DE7103DD1990F91500CF5CED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,7 +279,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEB62FEA19B2946F00C82767 /* XXXPuppy.m in Sources */,
 				DE7103D61990F91500CF5CED /* main.m in Sources */,
+				DE7104001990FADB00CF5CED /* XXXDog.m in Sources */,
 				DE7103DA1990F91500CF5CED /* XXXAppDelegate.m in Sources */,
 				DE7103E01990F91500CF5CED /* XXXViewController.m in Sources */,
 			);
@@ -456,6 +488,7 @@
 				DE7103FA1990F91500CF5CED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE7103FB1990F91500CF5CED /* Build configuration list for PBXNativeTarget "Man's Best FriendTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +497,7 @@
 				DE7103FD1990F91500CF5CED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
